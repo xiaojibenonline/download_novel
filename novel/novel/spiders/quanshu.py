@@ -10,8 +10,6 @@ import os
 from tkinter.filedialog import askdirectory
 import tkinter
 
-os.system('scrap crawl quanshu')
-
 
 class QuanshuSpider(scrapy.Spider):
     name = 'quanshu'  # 爬虫名字，唯一
